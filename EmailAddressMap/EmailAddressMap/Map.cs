@@ -6,19 +6,19 @@ namespace EmailAddressMap
 {
     public class Map
     {
-        private string[] Key { get; set; }
-        private string[] Value { get; set; }
+        private List<string> Key { get; set; }
+        private List<string> Value { get; set; }
         private int Max { get; set; }
 
         public Map() {
         
         }
 
-        public Map(string[] key, string[] value, int max)
+        public Map(List<string> key, List<string> value, int max)
         {
-            if(key.Length != value.Length)
+            if(key.Count != value.Count)
             {
-                throw new ArgumentException("Key and value arrays must be the same length.");
+                throw new ArgumentException("Key and value lists must be the same length.");
             }
 
             Value = value;
@@ -26,7 +26,7 @@ namespace EmailAddressMap
             Max = max;
 
             //Populate the Key array with hashed keys
-            for (int i = 0; i < key.Length; i++)
+            for (int i = 0; i < key.Count; i++)
             {
                 Key[i] = Hash(key[i], Max).ToString();
             }
@@ -45,7 +45,7 @@ namespace EmailAddressMap
         public string Print()
         {
             string container = "";
-            for(int i = 0; i < Key.Length; i++)
+            for(int i = 0; i < Key.Count; i++)
             {
                 container += "Key: " + Key[i] + ", Value: " + Value[i] + "\n";
             }
