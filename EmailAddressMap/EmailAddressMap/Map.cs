@@ -16,11 +16,17 @@ namespace EmailAddressMap
 
         public Map(string[] key, string[] value, int max)
         {
+            if(key.Length != value.Length)
+            {
+                throw new ArgumentException("Key and value arrays must be the same length.");
+            }
+
             Value = value;
+            Key = key; //Initialize array with provided keys before sending to Hash() method
             Max = max;
 
             //Populate the Key array with hashed keys
-            for(int i = 0; i < key.Length; i++)
+            for (int i = 0; i < key.Length; i++)
             {
                 Key[i] = Hash(key[i], Max).ToString();
             }
@@ -34,6 +40,17 @@ namespace EmailAddressMap
                 h += key[i] * (max - 1);
             }
             return h % max;
+        }
+
+        public string Print()
+        {
+            string container = "";
+            for(int i = 0; i < Key.Length; i++)
+            {
+                container += "Key: " + Key[i] + ", Value: " + Value[i] + "\n";
+            }
+
+            return container;
         }
     }
 }

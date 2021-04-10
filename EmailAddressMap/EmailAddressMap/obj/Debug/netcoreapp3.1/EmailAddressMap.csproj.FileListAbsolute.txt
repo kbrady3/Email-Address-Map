@@ -1,0 +1,11 @@
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\bin\Debug\netcoreapp3.1\EmailAddressMap.exe
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\bin\Debug\netcoreapp3.1\EmailAddressMap.deps.json
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\bin\Debug\netcoreapp3.1\EmailAddressMap.runtimeconfig.json
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\bin\Debug\netcoreapp3.1\EmailAddressMap.runtimeconfig.dev.json
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\bin\Debug\netcoreapp3.1\EmailAddressMap.dll
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\bin\Debug\netcoreapp3.1\EmailAddressMap.pdb
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\obj\Debug\netcoreapp3.1\EmailAddressMap.csprojAssemblyReference.cache
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\obj\Debug\netcoreapp3.1\EmailAddressMap.AssemblyInfoInputs.cache
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\obj\Debug\netcoreapp3.1\EmailAddressMap.AssemblyInfo.cs
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\obj\Debug\netcoreapp3.1\EmailAddressMap.dll
+C:\Users\Kabrina\Documents\GitHub Repos\Email-Address-Map\EmailAddressMap\EmailAddressMap\obj\Debug\netcoreapp3.1\EmailAddressMap.pdb
